@@ -41,7 +41,11 @@ module.exports = () => {
           },
         ],
       }),
+
     ],
+    stats: {
+      children: true
+    },
     module: {
       rules: [
         {
