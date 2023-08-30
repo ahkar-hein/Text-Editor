@@ -14,7 +14,6 @@ butInstall.addEventListener('click', async () => {
     if (!promptEvent) {
         return;
     }
-
     // Show prompt
     promptEvent.prompt();
 
